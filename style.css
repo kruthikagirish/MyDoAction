@@ -1,0 +1,108 @@
+/* Base Styles -------------------- */
+
+body {
+  display: flex;
+  background: #f7f1e3;
+  color: #333;
+  font-size: 1em;
+  font-family: Lato, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+h1, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h4 {
+  color: #888;
+  margin-bottom: 3em;
+}
+
+input[type="text"] {
+  color: #888;
+  width: 75%;
+  height: 18px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: none;
+  border: 0px;
+  color: #333;
+  margin: 10px 0 0;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+input, button {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  list-style-type: none;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Main Styles --------------------- */
+
+.container {
+  background: #55efc4;
+  width: auto;
+  height: auto;
+  padding: 5% 5% 0 5%;
+  margin: 5% 5%;
+  border-radius: 8%;
+}
+
+#hide {
+  display: none;
+}
+
+li.done {
+  text-decoration: line-through solid red;
+}
+
+.clear-all, .over {
+  font-size: inherit;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Pseudo-classes ------------------ */
+
+button:hover {
+  color: #888;
+}
+
+a:hover {
+  color: #888;
+}
+
+
+
+
